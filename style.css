@@ -87,6 +87,9 @@ nav {
   padding: 1rem 2rem;
   background-color:#1A0B2E ;
   margin: 0 auto;
+  position: sticky;
+  z-index: 19;
+  top: 0;
 }
 
 
@@ -302,6 +305,7 @@ nav ul {
 }
 
 .why-card {
+  cursor: pointer;
   padding: 30px;
   background-color: #351165;
   border-radius: 40px;
@@ -343,6 +347,7 @@ nav ul {
 }
 
 .feature-episodes {
+  cursor: pointer;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -406,6 +411,7 @@ iframe {
 }
 
 .host-card {
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
